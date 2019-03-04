@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html ng-app="helloworld">
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>AngJS </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="./SRC/CSS/main.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.7.7/angular.min.js"></script>
+    <script src="./node_modules/@uirouter/angularjs/release/angular-ui-router.js"></script>
+
+    <script src="./SRC/JavaScript/appRouters.js"></script>
+    <!-- <script src="./SRC/JavaScript/controllers/helloControllers.js"></script> -->
+
+
+
+</head>
+
+
+
+<body>
+
+    <a ui-sref="hello" ui-sref-active="active">Hello</a>
+    <a ui-sref="about" ui-sref-active="active">About</a>
+
+    <ui-view></ui-view>
+</body>
+
+
+</html>
